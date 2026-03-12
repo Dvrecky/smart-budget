@@ -8,11 +8,11 @@
 		<version>3.5.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>budget-management-app</artifactId>
+	<groupId>com.github.dvrecky</groupId>
+	<artifactId>smart-budget-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>budget-management-app</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Smart Budget Server</name>
+	<description>Server for Smart Budget application</description>
 	<url/>
 	<licenses>
 		<license/>

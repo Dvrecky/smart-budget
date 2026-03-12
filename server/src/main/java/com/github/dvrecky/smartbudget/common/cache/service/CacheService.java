@@ -1,0 +1,14 @@
+package com.github.dvrecky.smartbudget.common.cache.service;
+
+import java.util.List;
+
+public interface CacheService {
+
+    void storeValue(RedisServiceImpl.KeyPrefix prefix, String key, Object value, Long expiration);
+
+    Object getValue(RedisServiceImpl.KeyPrefix prefix, String key);
+
+    void delete(RedisServiceImpl.KeyPrefix prefix, String key);
+
+    void delete(RedisServiceImpl.KeyPrefix prefix, List<String> keys);
+}
